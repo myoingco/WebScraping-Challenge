@@ -23,7 +23,7 @@ Prior to execution, you must have Jupyter Notebook. You must also have ChromeDri
 
 ## Build Process
 
-###Part 1: Scrape Titles and Preview Text from Mars News
+### Part 1: Scrape Titles and Preview Text from Mars News
 Open the Jupyter Notebook in the starter code folder named part_1_mars_news.ipynb. You will work in this code as you follow the steps below to scrape the Mars News website.
 
 1) Use automated browsing to visit the Mars news siteLinks to an external site.. Inspect the page to identify which elements to scrape.
@@ -40,10 +40,10 @@ Open the Jupyter Notebook in the starter code folder named part_1_mars_news.ipyn
     
 4) Optionally, store the scraped data in a file (to ease sharing the data with others). To do so, export the scraped data to a JSON file. (Note: there will be no extra points for completing this.)
 
-###Part 2: Scrape and Analyze Mars Weather Data
+### Part 2: Scrape and Analyze Mars Weather Data
 Open the Jupyter Notebook in the starter code folder named part_2_mars_weather.ipynb. You will work in this code as you follow the steps below to scrape and analyze Mars weather data.
 
-1) Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site.. Inspect the page to identify which elements to scrape. Note that the URL is [Mars Temperature Data Site] (https://static.bc-edx.com/data/web/mars_facts/temperature.html)
+1) Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site.. Inspect the page to identify which elements to scrape. Note that the URL is [Mars Temperature Data Site](https://static.bc-edx.com/data/web/mars_facts/temperature.html)
 
 2) Create a Beautiful Soup object and use it to scrape the data in the HTML table. Note that this can also be achieved by using the Pandas read_html function. However, use Beautiful Soup here to continue sharpening your web scraping skills.
 
@@ -77,10 +77,10 @@ Open the Jupyter Notebook in the starter code folder named part_2_mars_weather.i
         - Consider how many days elapse on Earth in the time that Mars circles the Sun once.
         - Visually estimate the result by plotting the daily minimum temperature.
         
-    6) Export the DataFrame to a CSV file.
+6) Export the DataFrame to a CSV file.
 
 
 ## References
 [Xpert Learning Assistant](https://bootcampspot.instructure.com/courses/5057/external_tools/313)
 
-[The Mars News] (https://static.bc-edx.com/data/web/mars_news/index.html) is operated by edX Boot Camps LLC for educational purposes only. The news article titles, summaries, dates, and images were scraped from [NASA's Mars News] (https://mars.nasa.gov/) website in November 2022. Images are used according to the [JPL Image Use Policy](https://www.jpl.nasa.gov/jpl-image-use-policy), courtesy NASA/JPL-Caltech.
+[The Mars News](https://static.bc-edx.com/data/web/mars_news/index.html) is operated by edX Boot Camps LLC for educational purposes only. The news article titles, summaries, dates, and images were scraped from [NASA's Mars News](https://mars.nasa.gov/) website in November 2022. Images are used according to the [JPL Image Use Policy](https://www.jpl.nasa.gov/jpl-image-use-policy), courtesy NASA/JPL-Caltech.
